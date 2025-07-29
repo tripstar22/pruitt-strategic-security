@@ -1,0 +1,34 @@
+// * base spacing unit
+$spacingBase: 8px;
+
+// * calculated padding variables
+$paddingTopDefault: $spacingBase;
+$paddingBottomDefault: $spacingBase;
+$paddingLeftDefault: $spacingBase;
+$paddingRightDefault: $spacingBase;
+
+// * spacing scale (calculated from base)
+$spacingXs: $spacingBase * 0.5; // 4px
+$spacingSm: $spacingBase; // 8px
+$spacingMd: $spacingBase * 2; // 16px
+$spacingLg: $spacingBase * 3; // 24px
+$spacingXl: $spacingBase * 4; // 32px
+
+// * screen size breakpoints
+$breakpointSm: 576px;
+$breakpointMd: 768px;
+$breakpointLg: 992px;
+$breakpointXl: 1200px;
+$breakpointXxl: 1400px;
+
+// * colors
+ // primary color
+$colorBlack: #212121; // Default text color
+$colorWhite: #FAFAFA; // Inverse text color for dark backgrounds
+
+// * transition animations
+$transitionDefault: 0.25s ease-in-out;
+// * border radius
+$borderRadius: 4px;
+// * opacity
+$opacityDefault: 0.75;

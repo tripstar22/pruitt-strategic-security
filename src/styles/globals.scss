@@ -1,0 +1,30 @@
+// * third party imports
+@import '~bootstrap/scss/bootstrap';
+
+// * custom vars
+@import 'scss/_vars';
+
+// * custom global styles
+// add @import(s) first
+
+:root {
+  --font-size-base: 18px; /* Base font size for rem calculations */
+}
+
+html {
+  font-size: var(--font-size-base);
+}
+
+body {
+  background-color: $colorWhite; // Default background color
+  color: $colorBlack; // Default text color
+}
+
+a {
+  // color: $colorTeal; // Default link color
+  transition: color $transitionDefault;
+
+  // &:hover {
+  //   color: darken($colorTeal, 5%);
+  // }
+}

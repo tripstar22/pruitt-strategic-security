@@ -1,4 +1,10 @@
-import { Html, Head, Main, NextScript } from "next/document";
+// * next.js imports *
+import {
+  Html,
+  Head,
+  Main,
+  NextScript,
+} from 'next/document';
 
 export default function Document() {
   return (
