@@ -6,8 +6,13 @@ import Head from 'next/head';
 // import sanityClient from '@/sanity/client';
 
 // * custom component imports *
+import About from '@/components/about/About';
 import AppFooter from '@/components/app-footer/AppFooter';
 import AppHeader from '@/components/app-header/AppHeader';
+import Blog from '@/components/blog/Blog';
+import Contact from '@/components/contact/Contact';
+import HomeHero from '@/components/heroes/home-hero/HomeHero';
+import Testimonials from '@/components/testimonials/Testimonials';
 
 export default function Home() {
   return (
@@ -20,8 +25,11 @@ export default function Home() {
       </Head>
       <AppHeader />
       <main>
-        <h1>Welcome to Pruitt Strategic Security</h1>
-        <p>Your trusted security partner.</p>
+        <HomeHero />
+        <About />
+        <Testimonials />
+        <Blog />
+        <Contact />
       </main>
       <AppFooter />
     </>
