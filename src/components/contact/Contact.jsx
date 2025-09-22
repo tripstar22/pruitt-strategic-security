@@ -1,3 +1,10 @@
+// * bootstrap imports *
+import {
+  Container,
+  Row,
+  Col,
+} from 'react-bootstrap';
+
 // * custom component imports *
 import FormContact from '../forms/FormContact';
 
@@ -6,10 +13,18 @@ import classes from './Contact.module.scss';
 
 function Contact() {
   return (
-    <div>
-      <div>Contact</div>
-      <FormContact />
-    </div>
+    <section>
+      <Container>
+        <Row>
+          <Col>
+            <div className={classes.contact}>
+              <h2>Contact</h2>
+              <FormContact />
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 }
 

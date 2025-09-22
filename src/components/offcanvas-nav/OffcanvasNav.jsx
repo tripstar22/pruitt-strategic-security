@@ -16,7 +16,7 @@ import classes from './OffcanvasNav.module.scss';
 
 function OffcanvasNav({ show, onHide }) {
   return (
-    <Offcanvas show={show}>
+    <Offcanvas placement="end" show={show}>
       <Container>
         <Row>
           <Col>

@@ -1,3 +1,10 @@
+// * bootstrap imports *
+import {
+  Container,
+  Row,
+  Col,
+} from 'react-bootstrap';
+
 // * styles imports *
 import classes from '../Blog.module.scss';
 
@@ -7,11 +14,23 @@ import BlogItem from '../blog-item/BlogItem';
 
 function BlogList() {
   return (
-    <div>
-      <div>Blog List</div>
+    <section>
       <BlogFilters />
-      <BlogItem />
-    </div>
+      <Container>
+        <Row>
+          <Col>
+            <div className={classes.bloglist}>
+              <BlogItem />
+              <BlogItem />
+              <BlogItem />
+            </div>
+            <div className={classes.bloglist_more}>
+              <button type="button" className={classes.bloglist_more_btn}>Load More Posts</button>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </section>
   );
 }
 
