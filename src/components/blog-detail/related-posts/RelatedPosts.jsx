@@ -4,8 +4,12 @@ import BlogItem from '../../blog/blog-item/BlogItem';
 function RelatedPosts() {
   return (
     <div>
-      <div>Related Posts</div>
-      <BlogItem />
+      <div>
+        <h3>Related Posts</h3>
+        <BlogItem />
+        <BlogItem />
+        <BlogItem />
+      </div>
     </div>
   );
 }
