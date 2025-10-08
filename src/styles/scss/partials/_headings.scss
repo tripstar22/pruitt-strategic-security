@@ -1,41 +1,59 @@
-// * third party imports
-@import '~bootstrap/scss/bootstrap';
+/*
+ # headings #
+*/
 
-// * custom vars
-@import 'scss/_vars';
-
-// * custom global styles
-@import 'scss/partials/_headings';
+// * imports
+@import '../vars';
 
 /* ===================================================
   All Screen Sizes
 =================================================== */
 
-:root {
-  --font-size-base: 16px; /* Base font size for em/rem calculations */
+h1,
+h2,
+h4,
+h5,
+h6 {
+  font-family: $fontDisplay;
 }
-
-html {
-  font-size: var(--font-size-base);
+h1,
+h6 {
+  font-weight: 600;
 }
-
-body {
+h2,
+h4,
+h5 {
+  font-weight: 500;
+}
+h3 {
   font-family: $fontBody;
-  font-style: normal;
-  font-weight: 400;
-  background-color: $colorWhite; // Default background color
-  color: $colorBlack; // Default text color
+  font-weight: 300;
 }
 
-a {
-  color: $colorBlue; // Default link color
-  transition: color $transitionDefault;
-
-  &:hover {
-    color: darken($colorBlue, 10%);
-  }
+h1 {
+  font-size: 3.125em; // ~50px
+  line-height: 3.75em; // ~60px
 }
-
+h2 {
+  font-size: 2.25em; // ~36px
+  line-height: 2.69em; // ~43px
+}
+h3 {
+  font-size: 1.86em; // ~30px
+  line-height: 2.25em; // ~36px
+}
+h4 {
+  font-size: 1.63em; // ~26px
+  line-height: 2.05em; // ~33px
+}
+h5 {
+  font-size: 1.38em; // ~22px
+  line-height: 1.69em; // ~27px
+}
+h6 {
+  font-size: 1.13em; // ~18px
+  line-height: 1.31em; // ~21px
+}
 
 /* ===================================================
   END All Screen Sizes
@@ -78,12 +96,29 @@ a {
 
 @media screen and (min-width: $breakpointLg) {
 
-  :root {
-    --font-size-base: 18px; /* Base font size for em/rem calculations */
+  h1 {
+    font-size: 3.33em; // ~60px
+    line-height: 4em; // ~72px
   }
-
-  html {
-    font-size: var(--font-size-base);
+  h2 {
+    font-size: 2.44em; // ~44px
+    line-height: 3em; // ~53px
+  }
+  h3 {
+    font-size: 2.11em; // ~38px
+    line-height: 2.55em; // ~46px
+  }
+  h4 {
+    font-size: 1.77em; // ~32px
+    line-height: 2.22em; // ~40px
+  }
+  h5 {
+    font-size: 1.55em; // ~28px
+    line-height: 1.88em; // ~34px
+  }
+  h6 {
+    font-size: 1.33em; // ~24px
+    line-height: 1.55em; // ~28px
   }
 }
 

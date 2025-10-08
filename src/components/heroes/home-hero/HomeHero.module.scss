@@ -1,16 +1,17 @@
 /*
- # heroes #
+ # home hero #
 */
 
 // * imports
-@import '../../styles/scss/vars';
+@import '../../../styles/scss/vars';
 
 /* ===================================================
   All Screen Sizes
 =================================================== */
 
-.hero {
-  
+.homehero {
+  min-height: 100vh;
+  text-align: center;
 }
 
 /* ===================================================
@@ -24,7 +25,7 @@
 
 @media screen and (min-width: $breakpointSm) {
 
-  .hero {
+  .homehero {
 
   }
 
@@ -41,7 +42,7 @@
 
 @media screen and (min-width: $breakpointMd) {
 
-  .hero {
+  .homehero {
 
   }
 
@@ -58,7 +59,7 @@
 
 @media screen and (min-width: $breakpointLg) {
 
-  .hero {
+  .homehero {
 
   }
 
@@ -75,7 +76,7 @@
 
 @media screen and (min-width: $breakpointXl) {
 
-  .hero {
+  .homehero {
 
   }
 

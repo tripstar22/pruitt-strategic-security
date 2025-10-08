@@ -1,9 +1,6 @@
 // * third party library imports *
 import PropTypes from 'prop-types';
 
-// * font imports *
-import fontSerifDefault from '../styles/fonts';
-
 // * global style import *
 import '../styles/globals.scss';
 
@@ -11,7 +8,7 @@ export default function App(props) {
   const { Component, pageProps } = props;
 
   return (
-    <div className={fontSerifDefault.className}>
+    <div>
       {/* props spreading required for Next.js to work correctly */}
       {/* eslint-disable-next-line react/jsx-props-no-spreading */}
       <Component {...pageProps} />

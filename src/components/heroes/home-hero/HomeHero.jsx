@@ -6,7 +6,7 @@ import {
 } from 'react-bootstrap';
 
 // * styles imports *
-import classes from '../Hero.module.scss';
+import classes from './HomeHero.module.scss';
 
 function HomeHero() {
   return (
@@ -14,7 +14,7 @@ function HomeHero() {
       <Container>
         <Row>
           <Col>
-            <div className={classes.hero}>
+            <div className={classes.homehero}>
               <h1>Pruitt Strategic Security</h1>
               <h2>Dedicated to increasing business resilience.</h2>
             </div>

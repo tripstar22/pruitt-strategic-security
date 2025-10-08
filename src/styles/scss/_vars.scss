@@ -1,3 +1,10 @@
+// * fonts
+$fontDisplay: pressio, "Arial", sans-serif;
+$fontBody: ff-meta-web-pro, "Roboto", sans-serif;
+
+// * font sizes
+$fontSizeBase: 18px; // Base font size for rem calculations
+
 // * base spacing unit
 $spacingBase: 8px;
 
@@ -22,9 +29,13 @@ $breakpointXl: 1200px;
 $breakpointXxl: 1400px;
 
 // * colors
- // primary color
-$colorBlack: #212121; // Default text color
-$colorWhite: #FAFAFA; // Inverse text color for dark backgrounds
+$colorBlue: #2b3f7a; // primary color
+$colorBlueDark: #23293b;
+$colorIce: #e8edf7;
+$colorKhaki: #7a642b;
+$colorKhakiLight: #cdba8b;
+$colorBlack: #000; // Default text color
+$colorWhite: #fff;
 
 // * transition animations
 $transitionDefault: 0.25s ease-in-out;

@@ -6,11 +6,12 @@ import {
 } from 'react-bootstrap';
 
 // * styles imports *
-import classes from '../Hero.module.scss';
+// import classes from '../Hero.module.scss';
 
 function BlogIndexHero() {
   return (
-    <div className={`${classes.hero} ${classes.hero___blog}`}>
+    // <div className={`${classes.hero} ${classes.hero___blog}`}>
+    <div>
       <Container>
         <Row>
           <Col>
